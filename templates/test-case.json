@@ -1,0 +1,39 @@
+{
+  "id": "TC-J00-00",
+  "title": "",
+  "goal": "",
+  "priority": "",
+  "journeyId": "",
+  "variantOf": null,
+  "requirements": [],
+  "preconditions": [],
+  "testData": [
+    {
+      "name": "",
+      "value": "",
+      "comment": ""
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "action": "",
+      "testData": "",
+      "expectedResult": "",
+      "requirements": []
+    }
+  ],
+  "postconditions": [],
+  "gaps": [
+    {
+      "id": "G-01",
+      "text": ""
+    }
+  ],
+  "clarifyingQuestions": [
+    {
+      "id": "Q-01",
+      "text": ""
+    }
+  ]
+}

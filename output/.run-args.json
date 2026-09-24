@@ -1,0 +1,107 @@
+{
+  "source": "input/requirements/*.md",
+  "maxIterations": 2,
+  "journey": null,
+  "parallel": null,
+  "unit": null,
+  "yes": false,
+  "noAsk": false,
+  "keep": false,
+  "generatePytest": false,
+  "selenium": false,
+  "writers": null,
+  "seleniumUrl": "http://localhost:4444",
+  "baseUrl": null,
+  "appSource": null,
+  "harvestUi": false,
+  "publishAllure": false,
+  "allureProjectId": null,
+  "allureProjectName": null,
+  "argsUnavailable": false,
+  "raw": " ",
+  "gates": {
+    "Q1": {
+      "id": "Q1",
+      "phase": "1.5",
+      "header": "Покрытие",
+      "resolvedBy": "ASK",
+      "value": null,
+      "note": "флага нет; закрывается только --no-ask",
+      "willAsk": true
+    },
+    "Q2": {
+      "id": "Q2",
+      "phase": "1.5",
+      "header": "Потоки",
+      "resolvedBy": "ASK",
+      "value": null,
+      "note": "",
+      "willAsk": true
+    },
+    "Q3": {
+      "id": "Q3",
+      "phase": "1.5",
+      "header": "Владение",
+      "resolvedBy": "ASK",
+      "value": null,
+      "note": "",
+      "willAsk": true
+    },
+    "Q4": {
+      "id": "Q4",
+      "phase": "1.5",
+      "header": "GoNoGo",
+      "resolvedBy": "ASK",
+      "value": null,
+      "note": "",
+      "willAsk": true
+    },
+    "Q5": {
+      "id": "Q5",
+      "phase": "2.5",
+      "header": "Pytest",
+      "resolvedBy": "ASK",
+      "value": null,
+      "note": "",
+      "willAsk": true
+    },
+    "Q6": {
+      "id": "Q6",
+      "phase": "2.5",
+      "header": "Писатели",
+      "resolvedBy": "ASK",
+      "value": null,
+      "note": "при одном PASS-journey вопрос подавляется",
+      "willAsk": true
+    },
+    "Q7": {
+      "id": "Q7",
+      "phase": "5.1",
+      "header": "Источник UI",
+      "resolvedBy": "пропущен (нет --selenium)",
+      "value": null,
+      "note": "",
+      "willAsk": false
+    },
+    "Q8": {
+      "id": "Q8",
+      "phase": "2.6",
+      "header": "AllurePID",
+      "resolvedBy": "пропущен (нет --publish-allure)",
+      "value": null,
+      "note": "",
+      "willAsk": false
+    },
+    "Q9": {
+      "id": "Q9",
+      "phase": "3",
+      "header": "Итог",
+      "resolvedBy": "ASK",
+      "value": null,
+      "note": "флага нет; закрывается только --no-ask",
+      "willAsk": true
+    }
+  },
+  "stops": 7,
+  "warnings": []
+}

@@ -1,0 +1,6 @@
+{
+  "coverage": "continue",
+  "parallel": 1,
+  "unit": "journey",
+  "answers": []
+}

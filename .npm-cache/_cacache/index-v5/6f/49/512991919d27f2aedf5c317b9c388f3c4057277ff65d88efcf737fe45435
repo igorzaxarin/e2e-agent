@@ -1,0 +1,2 @@
+
+2a24156359c7c97136dce6a33b32da9d853c8e9e	{"key":"make-fetch-happen:request-cache:https://sberosc.sigma.sbrf.ru/repo/npm/semver/-/semver-6.3.1.tgz","integrity":"sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==","time":1790071834271,"size":19093,"metadata":{"time":1790071834258,"url":"https://sberosc.sigma.sbrf.ru/repo/npm/semver/-/semver-6.3.1.tgz","reqHeaders":{},"resHeaders":{"content-type":"application/octet-stream","date":"Tue, 22 Sep 2026 10:10:34 GMT","vary":"Cookie"},"options":{"compress":true}}}

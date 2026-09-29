@@ -1,0 +1,2 @@
+
+5d26419df8b3edc12f8013203f51f61b9902d679	{"key":"make-fetch-happen:request-cache:https://sberosc.sigma.sbrf.ru/repo/npm/tslib/-/tslib-2.8.1.tgz","integrity":"sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==","time":1790071834197,"size":18477,"metadata":{"time":1790071834163,"url":"https://sberosc.sigma.sbrf.ru/repo/npm/tslib/-/tslib-2.8.1.tgz","reqHeaders":{},"resHeaders":{"content-type":"application/octet-stream","date":"Tue, 22 Sep 2026 10:10:34 GMT","vary":"Cookie"},"options":{"compress":true}}}

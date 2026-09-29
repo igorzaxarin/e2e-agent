@@ -1,0 +1,2 @@
+
+65854bd4398195330d398172d5a369e2f00f3c74	{"key":"make-fetch-happen:request-cache:https://sberosc.sigma.sbrf.ru/repo/npm/nanoid/-/nanoid-3.3.15.tgz","integrity":"sha512-y7Wygv/7mEOvxTuEQDB8StXdMRBWf1kR/tlhAzBRUFkB2jfcLOAxO/SHmOO2zgz1pVgK29/kyupn059/bCHdjA==","time":1790071834323,"size":5627,"metadata":{"time":1790071834312,"url":"https://sberosc.sigma.sbrf.ru/repo/npm/nanoid/-/nanoid-3.3.15.tgz","reqHeaders":{},"resHeaders":{"content-type":"application/octet-stream","date":"Tue, 22 Sep 2026 10:10:34 GMT","vary":"Cookie"},"options":{"compress":true}}}

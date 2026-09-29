@@ -1,0 +1,2 @@
+
+b62149bf7419aaddd97733080dc829ac53499fee	{"key":"make-fetch-happen:request-cache:https://sberosc.sigma.sbrf.ru/repo/npm/debug/-/debug-4.4.3.tgz","integrity":"sha512-RGwwWnwQvkVfavKVt22FGLw+xYSdzARwm0ru6DhTVA3umU5hZc28V3kO4stgYryrTlLpuvgI9GiijltAjNbcqA==","time":1790071834654,"size":13449,"metadata":{"time":1790071834648,"url":"https://sberosc.sigma.sbrf.ru/repo/npm/debug/-/debug-4.4.3.tgz","reqHeaders":{},"resHeaders":{"content-type":"application/octet-stream","date":"Tue, 22 Sep 2026 10:10:34 GMT","vary":"Cookie"},"options":{"compress":true}}}

@@ -1,0 +1,771 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.9.2
+2 info using node@v22.16.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/19333669/workflow/qa-ai-workspace-presskit/.npmrc
+5 silly config load:file:/Users/19333669/.npmrc
+6 silly config load:file:/Users/19333669/.npm-packages/etc/npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" "./.npm-cache"
+9 verbose logfile logs-max:10 dir:/Users/19333669/workflow/qa-ai-workspace-presskit/.npm-cache/_logs/2026-09-22T10_10_33_247Z-
+10 verbose logfile /Users/19333669/workflow/qa-ai-workspace-presskit/.npm-cache/_logs/2026-09-22T10_10_33_247Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 silly reify moves {}
+15 silly audit bulk request {
+15 silly audit   '@babel/code-frame': [ '7.29.7' ],
+15 silly audit   '@babel/compat-data': [ '7.29.7' ],
+15 silly audit   '@babel/core': [ '7.29.7' ],
+15 silly audit   '@babel/generator': [ '7.29.7' ],
+15 silly audit   '@babel/helper-compilation-targets': [ '7.29.7' ],
+15 silly audit   '@babel/helper-globals': [ '7.29.7' ],
+15 silly audit   '@babel/helper-module-imports': [ '7.29.7' ],
+15 silly audit   '@babel/helper-module-transforms': [ '7.29.7' ],
+15 silly audit   '@babel/helper-plugin-utils': [ '7.29.7' ],
+15 silly audit   '@babel/helper-string-parser': [ '7.29.7' ],
+15 silly audit   '@babel/helper-validator-identifier': [ '7.29.7' ],
+15 silly audit   '@babel/helper-validator-option': [ '7.29.7' ],
+15 silly audit   '@babel/helpers': [ '7.29.7' ],
+15 silly audit   '@babel/parser': [ '7.29.7' ],
+15 silly audit   '@babel/plugin-transform-react-jsx-self': [ '7.29.7' ],
+15 silly audit   '@babel/plugin-transform-react-jsx-source': [ '7.29.7' ],
+15 silly audit   '@babel/template': [ '7.29.7' ],
+15 silly audit   '@babel/traverse': [ '7.29.7' ],
+15 silly audit   '@babel/types': [ '7.29.7' ],
+15 silly audit   '@esbuild/aix-ppc64': [ '0.21.5' ],
+15 silly audit   '@esbuild/android-arm': [ '0.21.5' ],
+15 silly audit   '@esbuild/android-arm64': [ '0.21.5' ],
+15 silly audit   '@esbuild/android-x64': [ '0.21.5' ],
+15 silly audit   '@esbuild/darwin-arm64': [ '0.21.5' ],
+15 silly audit   '@esbuild/darwin-x64': [ '0.21.5' ],
+15 silly audit   '@esbuild/freebsd-arm64': [ '0.21.5' ],
+15 silly audit   '@esbuild/freebsd-x64': [ '0.21.5' ],
+15 silly audit   '@esbuild/linux-arm': [ '0.21.5' ],
+15 silly audit   '@esbuild/linux-arm64': [ '0.21.5' ],
+15 silly audit   '@esbuild/linux-ia32': [ '0.21.5' ],
+15 silly audit   '@esbuild/linux-loong64': [ '0.21.5' ],
+15 silly audit   '@esbuild/linux-mips64el': [ '0.21.5' ],
+15 silly audit   '@esbuild/linux-ppc64': [ '0.21.5' ],
+15 silly audit   '@esbuild/linux-riscv64': [ '0.21.5' ],
+15 silly audit   '@esbuild/linux-s390x': [ '0.21.5' ],
+15 silly audit   '@esbuild/linux-x64': [ '0.21.5' ],
+15 silly audit   '@esbuild/netbsd-x64': [ '0.21.5' ],
+15 silly audit   '@esbuild/openbsd-x64': [ '0.21.5' ],
+15 silly audit   '@esbuild/sunos-x64': [ '0.21.5' ],
+15 silly audit   '@esbuild/win32-arm64': [ '0.21.5' ],
+15 silly audit   '@esbuild/win32-ia32': [ '0.21.5' ],
+15 silly audit   '@esbuild/win32-x64': [ '0.21.5' ],
+15 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+15 silly audit   '@jridgewell/remapping': [ '2.3.5' ],
+15 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+15 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+15 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+15 silly audit   '@rolldown/pluginutils': [ '1.0.0-beta.27' ],
+15 silly audit   '@rollup/rollup-android-arm-eabi': [ '4.62.2' ],
+15 silly audit   '@rollup/rollup-android-arm64': [ '4.62.2' ],
+15 silly audit   '@rollup/rollup-darwin-arm64': [ '4.62.2' ],
+15 silly audit   '@rollup/rollup-darwin-x64': [ '4.62.2' ],
+15 silly audit   '@rollup/rollup-freebsd-arm64': [ '4.62.2' ],
+15 silly audit   '@rollup/rollup-freebsd-x64': [ '4.62.2' ],
+15 silly audit   '@rollup/rollup-linux-arm-gnueabihf': [ '4.62.2' ],
+15 silly audit   '@rollup/rollup-linux-arm-musleabihf': [ '4.62.2' ],
+15 silly audit   '@rollup/rollup-linux-arm64-gnu': [ '4.62.2' ],
+15 silly audit   '@rollup/rollup-linux-arm64-musl': [ '4.62.2' ],
+15 silly audit   '@rollup/rollup-linux-loong64-gnu': [ '4.62.2' ],
+15 silly audit   '@rollup/rollup-linux-loong64-musl': [ '4.62.2' ],
+15 silly audit   '@rollup/rollup-linux-ppc64-gnu': [ '4.62.2' ],
+15 silly audit   '@rollup/rollup-linux-ppc64-musl': [ '4.62.2' ],
+15 silly audit   '@rollup/rollup-linux-riscv64-gnu': [ '4.62.2' ],
+15 silly audit   '@rollup/rollup-linux-riscv64-musl': [ '4.62.2' ],
+15 silly audit   '@rollup/rollup-linux-s390x-gnu': [ '4.62.2' ],
+15 silly audit   '@rollup/rollup-linux-x64-gnu': [ '4.62.2' ],
+15 silly audit   '@rollup/rollup-linux-x64-musl': [ '4.62.2' ],
+15 silly audit   '@rollup/rollup-openbsd-x64': [ '4.62.2' ],
+15 silly audit   '@rollup/rollup-openharmony-arm64': [ '4.62.2' ],
+15 silly audit   '@rollup/rollup-win32-arm64-msvc': [ '4.62.2' ],
+15 silly audit   '@rollup/rollup-win32-ia32-msvc': [ '4.62.2' ],
+15 silly audit   '@rollup/rollup-win32-x64-gnu': [ '4.62.2' ],
+15 silly audit   '@rollup/rollup-win32-x64-msvc': [ '4.62.2' ],
+15 silly audit   '@types/babel__core': [ '7.20.5' ],
+15 silly audit   '@types/babel__generator': [ '7.27.0' ],
+15 silly audit   '@types/babel__template': [ '7.4.4' ],
+15 silly audit   '@types/babel__traverse': [ '7.28.0' ],
+15 silly audit   '@types/estree': [ '1.0.9' ],
+15 silly audit   '@types/prop-types': [ '15.7.15' ],
+15 silly audit   '@types/react': [ '18.3.31' ],
+15 silly audit   '@types/react-dom': [ '18.3.7' ],
+15 silly audit   '@vitejs/plugin-react': [ '4.7.0' ],
+15 silly audit   'baseline-browser-mapping': [ '2.10.40' ],
+15 silly audit   browserslist: [ '4.28.4' ],
+15 silly audit   'caniuse-lite': [ '1.0.30001800' ],
+15 silly audit   'convert-source-map': [ '2.0.0' ],
+15 silly audit   csstype: [ '3.2.3' ],
+15 silly audit   debug: [ '4.4.3' ],
+15 silly audit   'electron-to-chromium': [ '1.5.382' ],
+15 silly audit   esbuild: [ '0.21.5' ],
+15 silly audit   escalade: [ '3.2.0' ],
+15 silly audit   'framer-motion': [ '11.18.2' ],
+15 silly audit   fsevents: [ '2.3.3' ],
+15 silly audit   gensync: [ '1.0.0-beta.2' ],
+15 silly audit   'js-tokens': [ '4.0.0' ],
+15 silly audit   jsesc: [ '3.1.0' ],
+15 silly audit   json5: [ '2.2.3' ],
+15 silly audit   'loose-envify': [ '1.4.0' ],
+15 silly audit   'lru-cache': [ '5.1.1' ],
+15 silly audit   'motion-dom': [ '11.18.1' ],
+15 silly audit   'motion-utils': [ '11.18.1' ],
+15 silly audit   ms: [ '2.1.3' ],
+15 silly audit   nanoid: [ '3.3.15' ],
+15 silly audit   'node-releases': [ '2.0.50' ],
+15 silly audit   picocolors: [ '1.1.1' ],
+15 silly audit   postcss: [ '8.5.16' ],
+15 silly audit   react: [ '18.3.1' ],
+15 silly audit   'react-dom': [ '18.3.1' ],
+15 silly audit   'react-refresh': [ '0.17.0' ],
+15 silly audit   rollup: [ '4.62.2' ],
+15 silly audit   scheduler: [ '0.23.2' ],
+15 silly audit   semver: [ '6.3.1' ],
+15 silly audit   'source-map-js': [ '1.2.1' ],
+15 silly audit   tslib: [ '2.8.1' ],
+15 silly audit   typescript: [ '5.9.3' ],
+15 silly audit   'update-browserslist-db': [ '1.2.3' ],
+15 silly audit   vite: [ '5.4.21' ],
+15 silly audit   yallist: [ '3.1.1' ]
+15 silly audit }
+16 verbose reify failed optional dependency /Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@rollup/rollup-win32-x64-msvc
+17 silly reify mark deleted [
+17 silly reify   '/Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@rollup/rollup-win32-x64-msvc'
+17 silly reify ]
+18 verbose reify failed optional dependency /Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@rollup/rollup-win32-x64-gnu
+19 silly reify mark deleted [
+19 silly reify   '/Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@rollup/rollup-win32-x64-gnu'
+19 silly reify ]
+20 verbose reify failed optional dependency /Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@rollup/rollup-win32-ia32-msvc
+21 silly reify mark deleted [
+21 silly reify   '/Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@rollup/rollup-win32-ia32-msvc'
+21 silly reify ]
+22 verbose reify failed optional dependency /Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@rollup/rollup-win32-arm64-msvc
+23 silly reify mark deleted [
+23 silly reify   '/Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@rollup/rollup-win32-arm64-msvc'
+23 silly reify ]
+24 verbose reify failed optional dependency /Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@rollup/rollup-openharmony-arm64
+25 silly reify mark deleted [
+25 silly reify   '/Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@rollup/rollup-openharmony-arm64'
+25 silly reify ]
+26 verbose reify failed optional dependency /Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@rollup/rollup-openbsd-x64
+27 silly reify mark deleted [
+27 silly reify   '/Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@rollup/rollup-openbsd-x64'
+27 silly reify ]
+28 verbose reify failed optional dependency /Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@rollup/rollup-linux-x64-musl
+29 silly reify mark deleted [
+29 silly reify   '/Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@rollup/rollup-linux-x64-musl'
+29 silly reify ]
+30 verbose reify failed optional dependency /Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@rollup/rollup-linux-x64-gnu
+31 silly reify mark deleted [
+31 silly reify   '/Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@rollup/rollup-linux-x64-gnu'
+31 silly reify ]
+32 verbose reify failed optional dependency /Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@rollup/rollup-linux-s390x-gnu
+33 silly reify mark deleted [
+33 silly reify   '/Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@rollup/rollup-linux-s390x-gnu'
+33 silly reify ]
+34 verbose reify failed optional dependency /Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@rollup/rollup-linux-riscv64-musl
+35 silly reify mark deleted [
+35 silly reify   '/Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@rollup/rollup-linux-riscv64-musl'
+35 silly reify ]
+36 verbose reify failed optional dependency /Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@rollup/rollup-linux-riscv64-gnu
+37 silly reify mark deleted [
+37 silly reify   '/Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@rollup/rollup-linux-riscv64-gnu'
+37 silly reify ]
+38 verbose reify failed optional dependency /Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@rollup/rollup-linux-ppc64-musl
+39 silly reify mark deleted [
+39 silly reify   '/Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@rollup/rollup-linux-ppc64-musl'
+39 silly reify ]
+40 verbose reify failed optional dependency /Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@rollup/rollup-linux-ppc64-gnu
+41 silly reify mark deleted [
+41 silly reify   '/Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@rollup/rollup-linux-ppc64-gnu'
+41 silly reify ]
+42 verbose reify failed optional dependency /Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@rollup/rollup-linux-loong64-musl
+43 silly reify mark deleted [
+43 silly reify   '/Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@rollup/rollup-linux-loong64-musl'
+43 silly reify ]
+44 verbose reify failed optional dependency /Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@rollup/rollup-linux-loong64-gnu
+45 silly reify mark deleted [
+45 silly reify   '/Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@rollup/rollup-linux-loong64-gnu'
+45 silly reify ]
+46 verbose reify failed optional dependency /Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@rollup/rollup-linux-arm64-musl
+47 silly reify mark deleted [
+47 silly reify   '/Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@rollup/rollup-linux-arm64-musl'
+47 silly reify ]
+48 verbose reify failed optional dependency /Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@rollup/rollup-linux-arm64-gnu
+49 silly reify mark deleted [
+49 silly reify   '/Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@rollup/rollup-linux-arm64-gnu'
+49 silly reify ]
+50 verbose reify failed optional dependency /Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@rollup/rollup-linux-arm-musleabihf
+51 silly reify mark deleted [
+51 silly reify   '/Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@rollup/rollup-linux-arm-musleabihf'
+51 silly reify ]
+52 verbose reify failed optional dependency /Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@rollup/rollup-linux-arm-gnueabihf
+53 silly reify mark deleted [
+53 silly reify   '/Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@rollup/rollup-linux-arm-gnueabihf'
+53 silly reify ]
+54 verbose reify failed optional dependency /Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@rollup/rollup-freebsd-x64
+55 silly reify mark deleted [
+55 silly reify   '/Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@rollup/rollup-freebsd-x64'
+55 silly reify ]
+56 verbose reify failed optional dependency /Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@rollup/rollup-freebsd-arm64
+57 silly reify mark deleted [
+57 silly reify   '/Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@rollup/rollup-freebsd-arm64'
+57 silly reify ]
+58 verbose reify failed optional dependency /Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@rollup/rollup-darwin-arm64
+59 silly reify mark deleted [
+59 silly reify   '/Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@rollup/rollup-darwin-arm64'
+59 silly reify ]
+60 verbose reify failed optional dependency /Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@rollup/rollup-android-arm64
+61 silly reify mark deleted [
+61 silly reify   '/Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@rollup/rollup-android-arm64'
+61 silly reify ]
+62 verbose reify failed optional dependency /Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@rollup/rollup-android-arm-eabi
+63 silly reify mark deleted [
+63 silly reify   '/Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@rollup/rollup-android-arm-eabi'
+63 silly reify ]
+64 verbose reify failed optional dependency /Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@esbuild/win32-x64
+65 silly reify mark deleted [
+65 silly reify   '/Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@esbuild/win32-x64'
+65 silly reify ]
+66 verbose reify failed optional dependency /Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@esbuild/win32-ia32
+67 silly reify mark deleted [
+67 silly reify   '/Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@esbuild/win32-ia32'
+67 silly reify ]
+68 verbose reify failed optional dependency /Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@esbuild/win32-arm64
+69 silly reify mark deleted [
+69 silly reify   '/Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@esbuild/win32-arm64'
+69 silly reify ]
+70 verbose reify failed optional dependency /Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@esbuild/sunos-x64
+71 silly reify mark deleted [
+71 silly reify   '/Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@esbuild/sunos-x64'
+71 silly reify ]
+72 verbose reify failed optional dependency /Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@esbuild/openbsd-x64
+73 silly reify mark deleted [
+73 silly reify   '/Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@esbuild/openbsd-x64'
+73 silly reify ]
+74 verbose reify failed optional dependency /Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@esbuild/netbsd-x64
+75 silly reify mark deleted [
+75 silly reify   '/Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@esbuild/netbsd-x64'
+75 silly reify ]
+76 verbose reify failed optional dependency /Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@esbuild/linux-x64
+77 silly reify mark deleted [
+77 silly reify   '/Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@esbuild/linux-x64'
+77 silly reify ]
+78 verbose reify failed optional dependency /Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@esbuild/linux-s390x
+79 silly reify mark deleted [
+79 silly reify   '/Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@esbuild/linux-s390x'
+79 silly reify ]
+80 verbose reify failed optional dependency /Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@esbuild/linux-riscv64
+81 silly reify mark deleted [
+81 silly reify   '/Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@esbuild/linux-riscv64'
+81 silly reify ]
+82 verbose reify failed optional dependency /Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@esbuild/linux-ppc64
+83 silly reify mark deleted [
+83 silly reify   '/Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@esbuild/linux-ppc64'
+83 silly reify ]
+84 verbose reify failed optional dependency /Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@esbuild/linux-mips64el
+85 silly reify mark deleted [
+85 silly reify   '/Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@esbuild/linux-mips64el'
+85 silly reify ]
+86 verbose reify failed optional dependency /Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@esbuild/linux-loong64
+87 silly reify mark deleted [
+87 silly reify   '/Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@esbuild/linux-loong64'
+87 silly reify ]
+88 verbose reify failed optional dependency /Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@esbuild/linux-ia32
+89 silly reify mark deleted [
+89 silly reify   '/Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@esbuild/linux-ia32'
+89 silly reify ]
+90 verbose reify failed optional dependency /Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@esbuild/linux-arm64
+91 silly reify mark deleted [
+91 silly reify   '/Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@esbuild/linux-arm64'
+91 silly reify ]
+92 verbose reify failed optional dependency /Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@esbuild/linux-arm
+93 silly reify mark deleted [
+93 silly reify   '/Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@esbuild/linux-arm'
+93 silly reify ]
+94 verbose reify failed optional dependency /Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@esbuild/freebsd-x64
+95 silly reify mark deleted [
+95 silly reify   '/Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@esbuild/freebsd-x64'
+95 silly reify ]
+96 verbose reify failed optional dependency /Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@esbuild/freebsd-arm64
+97 silly reify mark deleted [
+97 silly reify   '/Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@esbuild/freebsd-arm64'
+97 silly reify ]
+98 verbose reify failed optional dependency /Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@esbuild/darwin-arm64
+99 silly reify mark deleted [
+99 silly reify   '/Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@esbuild/darwin-arm64'
+99 silly reify ]
+100 verbose reify failed optional dependency /Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@esbuild/android-x64
+101 silly reify mark deleted [
+101 silly reify   '/Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@esbuild/android-x64'
+101 silly reify ]
+102 verbose reify failed optional dependency /Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@esbuild/android-arm64
+103 silly reify mark deleted [
+103 silly reify   '/Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@esbuild/android-arm64'
+103 silly reify ]
+104 verbose reify failed optional dependency /Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@esbuild/android-arm
+105 silly reify mark deleted [
+105 silly reify   '/Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@esbuild/android-arm'
+105 silly reify ]
+106 verbose reify failed optional dependency /Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@esbuild/aix-ppc64
+107 silly reify mark deleted [
+107 silly reify   '/Users/19333669/workflow/qa-ai-workspace-presskit/node_modules/@esbuild/aix-ppc64'
+107 silly reify ]
+108 http cache yallist@https://sberosc.sigma.sbrf.ru/repo/npm/yallist/-/yallist-3.1.1.tgz 0ms (cache hit)
+109 http cache vite@https://sberosc.sigma.sbrf.ru/repo/npm/vite/-/vite-5.4.21.tgz 0ms (cache hit)
+110 http cache typescript@https://sberosc.sigma.sbrf.ru/repo/npm/typescript/-/typescript-5.9.3.tgz 0ms (cache hit)
+111 http cache update-browserslist-db@https://sberosc.sigma.sbrf.ru/repo/npm/update-browserslist-db/-/update-browserslist-db-1.2.3.tgz 0ms (cache hit)
+112 http cache source-map-js@https://sberosc.sigma.sbrf.ru/repo/npm/source-map-js/-/source-map-js-1.2.1.tgz 0ms (cache hit)
+113 http cache tslib@https://sberosc.sigma.sbrf.ru/repo/npm/tslib/-/tslib-2.8.1.tgz 0ms (cache hit)
+114 http cache semver@https://sberosc.sigma.sbrf.ru/repo/npm/semver/-/semver-6.3.1.tgz 0ms (cache hit)
+115 http cache scheduler@https://sberosc.sigma.sbrf.ru/repo/npm/scheduler/-/scheduler-0.23.2.tgz 0ms (cache hit)
+116 http cache react-refresh@https://sberosc.sigma.sbrf.ru/repo/npm/react-refresh/-/react-refresh-0.17.0.tgz 0ms (cache hit)
+117 http cache rollup@https://sberosc.sigma.sbrf.ru/repo/npm/rollup/-/rollup-4.62.2.tgz 0ms (cache hit)
+118 http cache react-dom@https://sberosc.sigma.sbrf.ru/repo/npm/react-dom/-/react-dom-18.3.1.tgz 0ms (cache hit)
+119 http cache react@https://sberosc.sigma.sbrf.ru/repo/npm/react/-/react-18.3.1.tgz 0ms (cache hit)
+120 http cache postcss@https://sberosc.sigma.sbrf.ru/repo/npm/postcss/-/postcss-8.5.16.tgz 0ms (cache hit)
+121 http cache picocolors@https://sberosc.sigma.sbrf.ru/repo/npm/picocolors/-/picocolors-1.1.1.tgz 0ms (cache hit)
+122 http cache nanoid@https://sberosc.sigma.sbrf.ru/repo/npm/nanoid/-/nanoid-3.3.15.tgz 0ms (cache hit)
+123 http cache ms@https://sberosc.sigma.sbrf.ru/repo/npm/ms/-/ms-2.1.3.tgz 0ms (cache hit)
+124 http cache node-releases@https://sberosc.sigma.sbrf.ru/repo/npm/node-releases/-/node-releases-2.0.50.tgz 0ms (cache hit)
+125 http cache motion-utils@https://sberosc.sigma.sbrf.ru/repo/npm/motion-utils/-/motion-utils-11.18.1.tgz 0ms (cache hit)
+126 http cache motion-dom@https://sberosc.sigma.sbrf.ru/repo/npm/motion-dom/-/motion-dom-11.18.1.tgz 0ms (cache hit)
+127 http cache lru-cache@https://sberosc.sigma.sbrf.ru/repo/npm/lru-cache/-/lru-cache-5.1.1.tgz 0ms (cache hit)
+128 http cache loose-envify@https://sberosc.sigma.sbrf.ru/repo/npm/loose-envify/-/loose-envify-1.4.0.tgz 0ms (cache hit)
+129 http cache json5@https://sberosc.sigma.sbrf.ru/repo/npm/json5/-/json5-2.2.3.tgz 0ms (cache hit)
+130 http cache jsesc@https://sberosc.sigma.sbrf.ru/repo/npm/jsesc/-/jsesc-3.1.0.tgz 0ms (cache hit)
+131 http cache js-tokens@https://sberosc.sigma.sbrf.ru/repo/npm/js-tokens/-/js-tokens-4.0.0.tgz 0ms (cache hit)
+132 http cache gensync@https://sberosc.sigma.sbrf.ru/repo/npm/gensync/-/gensync-1.0.0-beta.2.tgz 0ms (cache hit)
+133 http cache fsevents@https://sberosc.sigma.sbrf.ru/repo/npm/fsevents/-/fsevents-2.3.3.tgz 0ms (cache hit)
+134 http cache framer-motion@https://sberosc.sigma.sbrf.ru/repo/npm/framer-motion/-/framer-motion-11.18.2.tgz 0ms (cache hit)
+135 http cache esbuild@https://sberosc.sigma.sbrf.ru/repo/npm/esbuild/-/esbuild-0.21.5.tgz 0ms (cache hit)
+136 http cache electron-to-chromium@https://sberosc.sigma.sbrf.ru/repo/npm/electron-to-chromium/-/electron-to-chromium-1.5.382.tgz 0ms (cache hit)
+137 http cache csstype@https://sberosc.sigma.sbrf.ru/repo/npm/csstype/-/csstype-3.2.3.tgz 0ms (cache hit)
+138 http cache convert-source-map@https://sberosc.sigma.sbrf.ru/repo/npm/convert-source-map/-/convert-source-map-2.0.0.tgz 0ms (cache hit)
+139 http cache caniuse-lite@https://sberosc.sigma.sbrf.ru/repo/npm/caniuse-lite/-/caniuse-lite-1.0.30001800.tgz 0ms (cache hit)
+140 http cache browserslist@https://sberosc.sigma.sbrf.ru/repo/npm/browserslist/-/browserslist-4.28.4.tgz 0ms (cache hit)
+141 http cache @vitejs/plugin-react@https://sberosc.sigma.sbrf.ru/repo/npm/@vitejs/plugin-react/-/plugin-react-4.7.0.tgz 0ms (cache hit)
+142 http cache baseline-browser-mapping@https://sberosc.sigma.sbrf.ru/repo/npm/baseline-browser-mapping/-/baseline-browser-mapping-2.10.40.tgz 0ms (cache hit)
+143 http cache escalade@https://sberosc.sigma.sbrf.ru/repo/npm/escalade/-/escalade-3.2.0.tgz 0ms (cache hit)
+144 http cache @types/react-dom@https://sberosc.sigma.sbrf.ru/repo/npm/@types/react-dom/-/react-dom-18.3.7.tgz 0ms (cache hit)
+145 http cache debug@https://sberosc.sigma.sbrf.ru/repo/npm/debug/-/debug-4.4.3.tgz 0ms (cache hit)
+146 http cache @types/react@https://sberosc.sigma.sbrf.ru/repo/npm/@types/react/-/react-18.3.31.tgz 0ms (cache hit)
+147 http cache @types/prop-types@https://sberosc.sigma.sbrf.ru/repo/npm/@types/prop-types/-/prop-types-15.7.15.tgz 0ms (cache hit)
+148 http cache @types/babel__template@https://sberosc.sigma.sbrf.ru/repo/npm/@types/babel__template/-/babel__template-7.4.4.tgz 0ms (cache hit)
+149 http cache @types/babel__generator@https://sberosc.sigma.sbrf.ru/repo/npm/@types/babel__generator/-/babel__generator-7.27.0.tgz 0ms (cache hit)
+150 http cache @types/babel__traverse@https://sberosc.sigma.sbrf.ru/repo/npm/@types/babel__traverse/-/babel__traverse-7.28.0.tgz 0ms (cache hit)
+151 http cache @types/estree@https://sberosc.sigma.sbrf.ru/repo/npm/@types/estree/-/estree-1.0.9.tgz 0ms (cache hit)
+152 http cache @types/babel__core@https://sberosc.sigma.sbrf.ru/repo/npm/@types/babel__core/-/babel__core-7.20.5.tgz 0ms (cache hit)
+153 http cache @jridgewell/sourcemap-codec@https://sberosc.sigma.sbrf.ru/repo/npm/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.5.tgz 0ms (cache hit)
+154 http cache @rolldown/pluginutils@https://sberosc.sigma.sbrf.ru/repo/npm/@rolldown/pluginutils/-/pluginutils-1.0.0-beta.27.tgz 0ms (cache hit)
+155 http cache @jridgewell/resolve-uri@https://sberosc.sigma.sbrf.ru/repo/npm/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz 0ms (cache hit)
+156 http cache @jridgewell/remapping@https://sberosc.sigma.sbrf.ru/repo/npm/@jridgewell/remapping/-/remapping-2.3.5.tgz 0ms (cache hit)
+157 http cache @jridgewell/trace-mapping@https://sberosc.sigma.sbrf.ru/repo/npm/@jridgewell/trace-mapping/-/trace-mapping-0.3.31.tgz 0ms (cache hit)
+158 http cache @esbuild/darwin-x64@https://sberosc.sigma.sbrf.ru/repo/npm/@esbuild/darwin-x64/-/darwin-x64-0.21.5.tgz 0ms (cache hit)
+159 http cache @rollup/rollup-darwin-x64@https://sberosc.sigma.sbrf.ru/repo/npm/@rollup/rollup-darwin-x64/-/rollup-darwin-x64-4.62.2.tgz 0ms (cache hit)
+160 http cache @jridgewell/gen-mapping@https://sberosc.sigma.sbrf.ru/repo/npm/@jridgewell/gen-mapping/-/gen-mapping-0.3.13.tgz 0ms (cache hit)
+161 http cache @babel/types@https://sberosc.sigma.sbrf.ru/repo/npm/@babel/types/-/types-7.29.7.tgz 0ms (cache hit)
+162 http cache @babel/plugin-transform-react-jsx-self@https://sberosc.sigma.sbrf.ru/repo/npm/@babel/plugin-transform-react-jsx-self/-/plugin-transform-react-jsx-self-7.29.7.tgz 0ms (cache hit)
+163 http cache @babel/traverse@https://sberosc.sigma.sbrf.ru/repo/npm/@babel/traverse/-/traverse-7.29.7.tgz 0ms (cache hit)
+164 http cache @babel/plugin-transform-react-jsx-source@https://sberosc.sigma.sbrf.ru/repo/npm/@babel/plugin-transform-react-jsx-source/-/plugin-transform-react-jsx-source-7.29.7.tgz 0ms (cache hit)
+165 http cache @babel/template@https://sberosc.sigma.sbrf.ru/repo/npm/@babel/template/-/template-7.29.7.tgz 0ms (cache hit)
+166 http cache @babel/parser@https://sberosc.sigma.sbrf.ru/repo/npm/@babel/parser/-/parser-7.29.7.tgz 0ms (cache hit)
+167 http cache @babel/helpers@https://sberosc.sigma.sbrf.ru/repo/npm/@babel/helpers/-/helpers-7.29.7.tgz 0ms (cache hit)
+168 http cache @babel/helper-string-parser@https://sberosc.sigma.sbrf.ru/repo/npm/@babel/helper-string-parser/-/helper-string-parser-7.29.7.tgz 0ms (cache hit)
+169 http cache @babel/helper-module-transforms@https://sberosc.sigma.sbrf.ru/repo/npm/@babel/helper-module-transforms/-/helper-module-transforms-7.29.7.tgz 0ms (cache hit)
+170 http cache @babel/helper-validator-identifier@https://sberosc.sigma.sbrf.ru/repo/npm/@babel/helper-validator-identifier/-/helper-validator-identifier-7.29.7.tgz 0ms (cache hit)
+171 http cache @babel/helper-validator-option@https://sberosc.sigma.sbrf.ru/repo/npm/@babel/helper-validator-option/-/helper-validator-option-7.29.7.tgz 0ms (cache hit)
+172 http cache @babel/helper-plugin-utils@https://sberosc.sigma.sbrf.ru/repo/npm/@babel/helper-plugin-utils/-/helper-plugin-utils-7.29.7.tgz 0ms (cache hit)
+173 http cache @babel/helper-module-imports@https://sberosc.sigma.sbrf.ru/repo/npm/@babel/helper-module-imports/-/helper-module-imports-7.29.7.tgz 0ms (cache hit)
+174 http cache @babel/generator@https://sberosc.sigma.sbrf.ru/repo/npm/@babel/generator/-/generator-7.29.7.tgz 1ms (cache hit)
+175 http cache @babel/helper-globals@https://sberosc.sigma.sbrf.ru/repo/npm/@babel/helper-globals/-/helper-globals-7.29.7.tgz 0ms (cache hit)
+176 http cache @babel/helper-compilation-targets@https://sberosc.sigma.sbrf.ru/repo/npm/@babel/helper-compilation-targets/-/helper-compilation-targets-7.29.7.tgz 0ms (cache hit)
+177 silly tarball no local data for yallist@https://sberosc.sigma.sbrf.ru/repo/npm/yallist/-/yallist-3.1.1.tgz. Extracting by manifest.
+178 silly tarball no local data for vite@https://sberosc.sigma.sbrf.ru/repo/npm/vite/-/vite-5.4.21.tgz. Extracting by manifest.
+179 silly tarball no local data for typescript@https://sberosc.sigma.sbrf.ru/repo/npm/typescript/-/typescript-5.9.3.tgz. Extracting by manifest.
+180 silly tarball no local data for update-browserslist-db@https://sberosc.sigma.sbrf.ru/repo/npm/update-browserslist-db/-/update-browserslist-db-1.2.3.tgz. Extracting by manifest.
+181 silly tarball no local data for source-map-js@https://sberosc.sigma.sbrf.ru/repo/npm/source-map-js/-/source-map-js-1.2.1.tgz. Extracting by manifest.
+182 http cache @babel/core@https://sberosc.sigma.sbrf.ru/repo/npm/@babel/core/-/core-7.29.7.tgz 0ms (cache hit)
+183 silly tarball no local data for tslib@https://sberosc.sigma.sbrf.ru/repo/npm/tslib/-/tslib-2.8.1.tgz. Extracting by manifest.
+184 http cache @babel/code-frame@https://sberosc.sigma.sbrf.ru/repo/npm/@babel/code-frame/-/code-frame-7.29.7.tgz 0ms (cache hit)
+185 silly tarball no local data for semver@https://sberosc.sigma.sbrf.ru/repo/npm/semver/-/semver-6.3.1.tgz. Extracting by manifest.
+186 http cache @babel/compat-data@https://sberosc.sigma.sbrf.ru/repo/npm/@babel/compat-data/-/compat-data-7.29.7.tgz 1ms (cache hit)
+187 silly tarball no local data for scheduler@https://sberosc.sigma.sbrf.ru/repo/npm/scheduler/-/scheduler-0.23.2.tgz. Extracting by manifest.
+188 silly tarball no local data for react-refresh@https://sberosc.sigma.sbrf.ru/repo/npm/react-refresh/-/react-refresh-0.17.0.tgz. Extracting by manifest.
+189 silly tarball no local data for rollup@https://sberosc.sigma.sbrf.ru/repo/npm/rollup/-/rollup-4.62.2.tgz. Extracting by manifest.
+190 silly tarball no local data for react-dom@https://sberosc.sigma.sbrf.ru/repo/npm/react-dom/-/react-dom-18.3.1.tgz. Extracting by manifest.
+191 silly tarball no local data for react@https://sberosc.sigma.sbrf.ru/repo/npm/react/-/react-18.3.1.tgz. Extracting by manifest.
+192 silly tarball no local data for postcss@https://sberosc.sigma.sbrf.ru/repo/npm/postcss/-/postcss-8.5.16.tgz. Extracting by manifest.
+193 silly tarball no local data for picocolors@https://sberosc.sigma.sbrf.ru/repo/npm/picocolors/-/picocolors-1.1.1.tgz. Extracting by manifest.
+194 silly tarball no local data for nanoid@https://sberosc.sigma.sbrf.ru/repo/npm/nanoid/-/nanoid-3.3.15.tgz. Extracting by manifest.
+195 silly tarball no local data for ms@https://sberosc.sigma.sbrf.ru/repo/npm/ms/-/ms-2.1.3.tgz. Extracting by manifest.
+196 silly tarball no local data for node-releases@https://sberosc.sigma.sbrf.ru/repo/npm/node-releases/-/node-releases-2.0.50.tgz. Extracting by manifest.
+197 silly tarball no local data for motion-utils@https://sberosc.sigma.sbrf.ru/repo/npm/motion-utils/-/motion-utils-11.18.1.tgz. Extracting by manifest.
+198 silly tarball no local data for motion-dom@https://sberosc.sigma.sbrf.ru/repo/npm/motion-dom/-/motion-dom-11.18.1.tgz. Extracting by manifest.
+199 silly tarball no local data for lru-cache@https://sberosc.sigma.sbrf.ru/repo/npm/lru-cache/-/lru-cache-5.1.1.tgz. Extracting by manifest.
+200 silly tarball no local data for loose-envify@https://sberosc.sigma.sbrf.ru/repo/npm/loose-envify/-/loose-envify-1.4.0.tgz. Extracting by manifest.
+201 silly tarball no local data for json5@https://sberosc.sigma.sbrf.ru/repo/npm/json5/-/json5-2.2.3.tgz. Extracting by manifest.
+202 silly tarball no local data for jsesc@https://sberosc.sigma.sbrf.ru/repo/npm/jsesc/-/jsesc-3.1.0.tgz. Extracting by manifest.
+203 silly tarball no local data for js-tokens@https://sberosc.sigma.sbrf.ru/repo/npm/js-tokens/-/js-tokens-4.0.0.tgz. Extracting by manifest.
+204 silly tarball no local data for gensync@https://sberosc.sigma.sbrf.ru/repo/npm/gensync/-/gensync-1.0.0-beta.2.tgz. Extracting by manifest.
+205 silly tarball no local data for fsevents@https://sberosc.sigma.sbrf.ru/repo/npm/fsevents/-/fsevents-2.3.3.tgz. Extracting by manifest.
+206 silly tarball no local data for framer-motion@https://sberosc.sigma.sbrf.ru/repo/npm/framer-motion/-/framer-motion-11.18.2.tgz. Extracting by manifest.
+207 silly tarball no local data for esbuild@https://sberosc.sigma.sbrf.ru/repo/npm/esbuild/-/esbuild-0.21.5.tgz. Extracting by manifest.
+208 silly tarball no local data for electron-to-chromium@https://sberosc.sigma.sbrf.ru/repo/npm/electron-to-chromium/-/electron-to-chromium-1.5.382.tgz. Extracting by manifest.
+209 silly tarball no local data for csstype@https://sberosc.sigma.sbrf.ru/repo/npm/csstype/-/csstype-3.2.3.tgz. Extracting by manifest.
+210 silly tarball no local data for convert-source-map@https://sberosc.sigma.sbrf.ru/repo/npm/convert-source-map/-/convert-source-map-2.0.0.tgz. Extracting by manifest.
+211 silly tarball no local data for caniuse-lite@https://sberosc.sigma.sbrf.ru/repo/npm/caniuse-lite/-/caniuse-lite-1.0.30001800.tgz. Extracting by manifest.
+212 silly tarball no local data for browserslist@https://sberosc.sigma.sbrf.ru/repo/npm/browserslist/-/browserslist-4.28.4.tgz. Extracting by manifest.
+213 silly tarball no local data for @vitejs/plugin-react@https://sberosc.sigma.sbrf.ru/repo/npm/@vitejs/plugin-react/-/plugin-react-4.7.0.tgz. Extracting by manifest.
+214 silly tarball no local data for baseline-browser-mapping@https://sberosc.sigma.sbrf.ru/repo/npm/baseline-browser-mapping/-/baseline-browser-mapping-2.10.40.tgz. Extracting by manifest.
+215 silly tarball no local data for escalade@https://sberosc.sigma.sbrf.ru/repo/npm/escalade/-/escalade-3.2.0.tgz. Extracting by manifest.
+216 silly tarball no local data for @types/react-dom@https://sberosc.sigma.sbrf.ru/repo/npm/@types/react-dom/-/react-dom-18.3.7.tgz. Extracting by manifest.
+217 silly tarball no local data for debug@https://sberosc.sigma.sbrf.ru/repo/npm/debug/-/debug-4.4.3.tgz. Extracting by manifest.
+218 silly tarball no local data for @types/react@https://sberosc.sigma.sbrf.ru/repo/npm/@types/react/-/react-18.3.31.tgz. Extracting by manifest.
+219 silly tarball no local data for @types/prop-types@https://sberosc.sigma.sbrf.ru/repo/npm/@types/prop-types/-/prop-types-15.7.15.tgz. Extracting by manifest.
+220 silly tarball no local data for @types/babel__template@https://sberosc.sigma.sbrf.ru/repo/npm/@types/babel__template/-/babel__template-7.4.4.tgz. Extracting by manifest.
+221 silly tarball no local data for @types/babel__generator@https://sberosc.sigma.sbrf.ru/repo/npm/@types/babel__generator/-/babel__generator-7.27.0.tgz. Extracting by manifest.
+222 silly tarball no local data for @types/babel__traverse@https://sberosc.sigma.sbrf.ru/repo/npm/@types/babel__traverse/-/babel__traverse-7.28.0.tgz. Extracting by manifest.
+223 silly tarball no local data for @types/estree@https://sberosc.sigma.sbrf.ru/repo/npm/@types/estree/-/estree-1.0.9.tgz. Extracting by manifest.
+224 silly tarball no local data for @types/babel__core@https://sberosc.sigma.sbrf.ru/repo/npm/@types/babel__core/-/babel__core-7.20.5.tgz. Extracting by manifest.
+225 silly tarball no local data for @jridgewell/sourcemap-codec@https://sberosc.sigma.sbrf.ru/repo/npm/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.5.tgz. Extracting by manifest.
+226 silly tarball no local data for @rolldown/pluginutils@https://sberosc.sigma.sbrf.ru/repo/npm/@rolldown/pluginutils/-/pluginutils-1.0.0-beta.27.tgz. Extracting by manifest.
+227 silly tarball no local data for @jridgewell/resolve-uri@https://sberosc.sigma.sbrf.ru/repo/npm/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz. Extracting by manifest.
+228 silly tarball no local data for @jridgewell/remapping@https://sberosc.sigma.sbrf.ru/repo/npm/@jridgewell/remapping/-/remapping-2.3.5.tgz. Extracting by manifest.
+229 silly tarball no local data for @jridgewell/trace-mapping@https://sberosc.sigma.sbrf.ru/repo/npm/@jridgewell/trace-mapping/-/trace-mapping-0.3.31.tgz. Extracting by manifest.
+230 silly tarball no local data for @esbuild/darwin-x64@https://sberosc.sigma.sbrf.ru/repo/npm/@esbuild/darwin-x64/-/darwin-x64-0.21.5.tgz. Extracting by manifest.
+231 silly tarball no local data for @rollup/rollup-darwin-x64@https://sberosc.sigma.sbrf.ru/repo/npm/@rollup/rollup-darwin-x64/-/rollup-darwin-x64-4.62.2.tgz. Extracting by manifest.
+232 silly tarball no local data for @jridgewell/gen-mapping@https://sberosc.sigma.sbrf.ru/repo/npm/@jridgewell/gen-mapping/-/gen-mapping-0.3.13.tgz. Extracting by manifest.
+233 silly tarball no local data for @babel/types@https://sberosc.sigma.sbrf.ru/repo/npm/@babel/types/-/types-7.29.7.tgz. Extracting by manifest.
+234 silly tarball no local data for @babel/plugin-transform-react-jsx-self@https://sberosc.sigma.sbrf.ru/repo/npm/@babel/plugin-transform-react-jsx-self/-/plugin-transform-react-jsx-self-7.29.7.tgz. Extracting by manifest.
+235 silly tarball no local data for @babel/traverse@https://sberosc.sigma.sbrf.ru/repo/npm/@babel/traverse/-/traverse-7.29.7.tgz. Extracting by manifest.
+236 silly tarball no local data for @babel/plugin-transform-react-jsx-source@https://sberosc.sigma.sbrf.ru/repo/npm/@babel/plugin-transform-react-jsx-source/-/plugin-transform-react-jsx-source-7.29.7.tgz. Extracting by manifest.
+237 silly tarball no local data for @babel/template@https://sberosc.sigma.sbrf.ru/repo/npm/@babel/template/-/template-7.29.7.tgz. Extracting by manifest.
+238 silly tarball no local data for @babel/parser@https://sberosc.sigma.sbrf.ru/repo/npm/@babel/parser/-/parser-7.29.7.tgz. Extracting by manifest.
+239 silly tarball no local data for @babel/helpers@https://sberosc.sigma.sbrf.ru/repo/npm/@babel/helpers/-/helpers-7.29.7.tgz. Extracting by manifest.
+240 silly tarball no local data for @babel/helper-string-parser@https://sberosc.sigma.sbrf.ru/repo/npm/@babel/helper-string-parser/-/helper-string-parser-7.29.7.tgz. Extracting by manifest.
+241 silly tarball no local data for @babel/helper-module-transforms@https://sberosc.sigma.sbrf.ru/repo/npm/@babel/helper-module-transforms/-/helper-module-transforms-7.29.7.tgz. Extracting by manifest.
+242 silly tarball no local data for @babel/helper-validator-identifier@https://sberosc.sigma.sbrf.ru/repo/npm/@babel/helper-validator-identifier/-/helper-validator-identifier-7.29.7.tgz. Extracting by manifest.
+243 silly tarball no local data for @babel/helper-validator-option@https://sberosc.sigma.sbrf.ru/repo/npm/@babel/helper-validator-option/-/helper-validator-option-7.29.7.tgz. Extracting by manifest.
+244 silly tarball no local data for @babel/helper-plugin-utils@https://sberosc.sigma.sbrf.ru/repo/npm/@babel/helper-plugin-utils/-/helper-plugin-utils-7.29.7.tgz. Extracting by manifest.
+245 silly tarball no local data for @babel/helper-module-imports@https://sberosc.sigma.sbrf.ru/repo/npm/@babel/helper-module-imports/-/helper-module-imports-7.29.7.tgz. Extracting by manifest.
+246 silly tarball no local data for @babel/generator@https://sberosc.sigma.sbrf.ru/repo/npm/@babel/generator/-/generator-7.29.7.tgz. Extracting by manifest.
+247 silly tarball no local data for @babel/helper-globals@https://sberosc.sigma.sbrf.ru/repo/npm/@babel/helper-globals/-/helper-globals-7.29.7.tgz. Extracting by manifest.
+248 silly tarball no local data for @babel/helper-compilation-targets@https://sberosc.sigma.sbrf.ru/repo/npm/@babel/helper-compilation-targets/-/helper-compilation-targets-7.29.7.tgz. Extracting by manifest.
+249 silly tarball no local data for @babel/core@https://sberosc.sigma.sbrf.ru/repo/npm/@babel/core/-/core-7.29.7.tgz. Extracting by manifest.
+250 silly tarball no local data for @babel/code-frame@https://sberosc.sigma.sbrf.ru/repo/npm/@babel/code-frame/-/code-frame-7.29.7.tgz. Extracting by manifest.
+251 silly tarball no local data for @babel/compat-data@https://sberosc.sigma.sbrf.ru/repo/npm/@babel/compat-data/-/compat-data-7.29.7.tgz. Extracting by manifest.
+252 http fetch POST 403 https://sberosc.sigma.sbrf.ru/repo/npm/-/npm/v1/security/advisories/bulk 124ms
+253 silly audit bulk request failed 
+253 silly audit <!DOCTYPE html>
+253 silly audit <html lang="en">
+253 silly audit <head>
+253 silly audit   <meta http-equiv="content-type" content="text/html; charset=utf-8">
+253 silly audit   <meta name="robots" content="NONE,NOARCHIVE">
+253 silly audit   <title>403 Forbidden</title>
+253 silly audit   <style type="text/css">
+253 silly audit     html * { padding:0; margin:0; }
+253 silly audit     body * { padding:10px 20px; }
+253 silly audit     body * * { padding:0; }
+253 silly audit     body { font:small sans-serif; background:#eee; color:#000; }
+253 silly audit     body>div { border-bottom:1px solid #ddd; }
+253 silly audit     h1 { font-weight:normal; margin-bottom:.4em; }
+253 silly audit     h1 span { font-size:60%; color:#666; font-weight:normal; }
+253 silly audit     #info { background:#f6f6f6; }
+253 silly audit     #info ul { margin: 0.5em 4em; }
+253 silly audit     #info p, #summary p { padding-top:10px; }
+253 silly audit     #summary { background: #ffc; }
+253 silly audit     #explanation { background:#eee; border-bottom: 0px none; }
+253 silly audit   </style>
+253 silly audit </head>
+253 silly audit <body>
+253 silly audit <div id="summary">
+253 silly audit   <h1>Ошибка доступа <span>(403)</span></h1>
+253 silly audit   <p>Ошибка проверки CSRF. Запрос отклонён.</p>
+253 silly audit
+253 silly audit
+253 silly audit   <p>Вы видите это сообщение, потому что данный сайт требует, чтобы при отправке форм была отправлена и CSRF-cookie. Данный тип cookie необходим по соображениям безопасности, чтобы убедиться, что ваш браузер не был взломан и не выполняет от вашего лица действий, запрограммированных третьими лицами.</p>
+253 silly audit   <p>Если в вашем браузере отключены cookie, пожалуйста, включите эту функцию вновь, по крайней мере для этого сайта, или для &quot;same-orign&quot; запросов.</p>
+253 silly audit
+253 silly audit </div>
+253 silly audit
+253 silly audit <div id="explanation">
+253 silly audit   <p><small>В отладочном режиме доступно больше информации.  Включить отладочный режим можно, установив значение переменной DEBUG=True.</small></p>
+253 silly audit </div>
+253 silly audit
+253 silly audit </body>
+253 silly audit </html>
+253 silly audit
+254 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/yallist/-/yallist-3.1.1.tgz 198ms (cache miss)
+255 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/update-browserslist-db/-/update-browserslist-db-1.2.3.tgz 197ms (cache miss)
+256 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/picocolors/-/picocolors-1.1.1.tgz 192ms (cache miss)
+257 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/tslib/-/tslib-2.8.1.tgz 198ms (cache miss)
+258 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/react-refresh/-/react-refresh-0.17.0.tgz 204ms (cache miss)
+259 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/source-map-js/-/source-map-js-1.2.1.tgz 209ms (cache miss)
+260 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/scheduler/-/scheduler-0.23.2.tgz 209ms (cache miss)
+261 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/semver/-/semver-6.3.1.tgz 257ms (cache miss)
+262 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/ms/-/ms-2.1.3.tgz 278ms (cache miss)
+263 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/motion-utils/-/motion-utils-11.18.1.tgz 277ms (cache miss)
+264 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/node-releases/-/node-releases-2.0.50.tgz 283ms (cache miss)
+265 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/nanoid/-/nanoid-3.3.15.tgz 306ms (cache miss)
+266 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/loose-envify/-/loose-envify-1.4.0.tgz 347ms (cache miss)
+267 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/lru-cache/-/lru-cache-5.1.1.tgz 348ms (cache miss)
+268 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/postcss/-/postcss-8.5.16.tgz 353ms (cache miss)
+269 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/motion-dom/-/motion-dom-11.18.1.tgz 383ms (cache miss)
+270 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/react/-/react-18.3.1.tgz 386ms (cache miss)
+271 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/gensync/-/gensync-1.0.0-beta.2.tgz 400ms (cache miss)
+272 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/js-tokens/-/js-tokens-4.0.0.tgz 400ms (cache miss)
+273 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/jsesc/-/jsesc-3.1.0.tgz 420ms (cache miss)
+274 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/electron-to-chromium/-/electron-to-chromium-1.5.382.tgz 443ms (cache miss)
+275 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/json5/-/json5-2.2.3.tgz 446ms (cache miss)
+276 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/convert-source-map/-/convert-source-map-2.0.0.tgz 456ms (cache miss)
+277 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/fsevents/-/fsevents-2.3.3.tgz 470ms (cache miss)
+278 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/browserslist/-/browserslist-4.28.4.tgz 495ms (cache miss)
+279 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/esbuild/-/esbuild-0.21.5.tgz 500ms (cache miss)
+280 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/@vitejs/plugin-react/-/plugin-react-4.7.0.tgz 533ms (cache miss)
+281 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/escalade/-/escalade-3.2.0.tgz 542ms (cache miss)
+282 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/baseline-browser-mapping/-/baseline-browser-mapping-2.10.40.tgz 571ms (cache miss)
+283 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/@types/react-dom/-/react-dom-18.3.7.tgz 625ms (cache miss)
+284 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/debug/-/debug-4.4.3.tgz 630ms (cache miss)
+285 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/csstype/-/csstype-3.2.3.tgz 637ms (cache miss)
+286 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/@types/prop-types/-/prop-types-15.7.15.tgz 663ms (cache miss)
+287 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/@types/babel__template/-/babel__template-7.4.4.tgz 689ms (cache miss)
+288 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/@types/babel__generator/-/babel__generator-7.27.0.tgz 730ms (cache miss)
+289 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/@types/babel__traverse/-/babel__traverse-7.28.0.tgz 740ms (cache miss)
+290 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/@types/react/-/react-18.3.31.tgz 759ms (cache miss)
+291 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/@types/babel__core/-/babel__core-7.20.5.tgz 768ms (cache miss)
+292 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/@types/estree/-/estree-1.0.9.tgz 777ms (cache miss)
+293 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/vite/-/vite-5.4.21.tgz 791ms (cache miss)
+294 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.5.tgz 798ms (cache miss)
+295 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz 809ms (cache miss)
+296 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/@rolldown/pluginutils/-/pluginutils-1.0.0-beta.27.tgz 812ms (cache miss)
+297 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/@jridgewell/remapping/-/remapping-2.3.5.tgz 841ms (cache miss)
+298 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/@jridgewell/trace-mapping/-/trace-mapping-0.3.31.tgz 885ms (cache miss)
+299 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/@jridgewell/gen-mapping/-/gen-mapping-0.3.13.tgz 940ms (cache miss)
+300 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/rollup/-/rollup-4.62.2.tgz 954ms (cache miss)
+301 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/caniuse-lite/-/caniuse-lite-1.0.30001800.tgz 950ms (cache miss)
+302 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/@babel/plugin-transform-react-jsx-self/-/plugin-transform-react-jsx-self-7.29.7.tgz 990ms (cache miss)
+303 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/@babel/plugin-transform-react-jsx-source/-/plugin-transform-react-jsx-source-7.29.7.tgz 1010ms (cache miss)
+304 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/@babel/template/-/template-7.29.7.tgz 1021ms (cache miss)
+305 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/@babel/helper-string-parser/-/helper-string-parser-7.29.7.tgz 1106ms (cache miss)
+306 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/@babel/helper-module-transforms/-/helper-module-transforms-7.29.7.tgz 1112ms (cache miss)
+307 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/@babel/helper-validator-identifier/-/helper-validator-identifier-7.29.7.tgz 1115ms (cache miss)
+308 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/react-dom/-/react-dom-18.3.1.tgz 1167ms (cache miss)
+309 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/@babel/helper-plugin-utils/-/helper-plugin-utils-7.29.7.tgz 1202ms (cache miss)
+310 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/@babel/helper-validator-option/-/helper-validator-option-7.29.7.tgz 1202ms (cache miss)
+311 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/framer-motion/-/framer-motion-11.18.2.tgz 1233ms (cache miss)
+312 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/@babel/traverse/-/traverse-7.29.7.tgz 1231ms (cache miss)
+313 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/@babel/helper-module-imports/-/helper-module-imports-7.29.7.tgz 1242ms (cache miss)
+314 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/@babel/helper-globals/-/helper-globals-7.29.7.tgz 1251ms (cache miss)
+315 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/@babel/helpers/-/helpers-7.29.7.tgz 1263ms (cache miss)
+316 http fetch POST 403 https://sberosc.sigma.sbrf.ru/repo/npm/-/npm/v1/security/audits/quick 1204ms
+317 verbose audit error HttpErrorGeneral: 403 Forbidden - POST https://sberosc.sigma.sbrf.ru/repo/npm/-/npm/v1/security/audits/quick
+317 verbose audit error     at /usr/local/lib/node_modules/npm/node_modules/npm-registry-fetch/lib/check-response.js:103:15
+317 verbose audit error     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+317 verbose audit error     at async [getReport] (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/audit-report.js:336:21)
+317 verbose audit error     at async AuditReport.run (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/audit-report.js:106:19) {
+317 verbose audit error   headers: [Object: null prototype] {
+317 verbose audit error     server: [ 'SynGX' ],
+317 verbose audit error     date: [ 'Tue, 22 Sep 2026 10:10:35 GMT' ],
+317 verbose audit error     'content-type': [ 'text/html; charset=utf-8' ],
+317 verbose audit error     'content-length': [ '2031' ],
+317 verbose audit error     connection: [ 'keep-alive' ],
+317 verbose audit error     'keep-alive': [ 'timeout=65' ],
+317 verbose audit error     'x-frame-options': [ 'DENY' ],
+317 verbose audit error     'x-content-type-options': [ 'nosniff' ],
+317 verbose audit error     'referrer-policy': [ 'same-origin' ],
+317 verbose audit error     'cross-origin-opener-policy': [ 'same-origin' ],
+317 verbose audit error     allow: [ 'GET, POST, HEAD, PATCH' ],
+317 verbose audit error     'strict-transport-security': [ 'max-age=31536000; includeSubDomains' ],
+317 verbose audit error     'x-fetch-attempts': [ '1' ]
+317 verbose audit error   },
+317 verbose audit error   statusCode: 403,
+317 verbose audit error   code: 'E403',
+317 verbose audit error   method: 'POST',
+317 verbose audit error   uri: 'https://sberosc.sigma.sbrf.ru/repo/npm/-/npm/v1/security/audits/quick',
+317 verbose audit error   body: <Buffer 0a 3c 21 44 4f 43 54 59 50 45 20 68 74 6d 6c 3e 0a 3c 68 74 6d 6c 20 6c 61 6e 67 3d 22 65 6e 22 3e 0a 3c 68 65 61 64 3e 0a 20 20 3c 6d 65 74 61 20 68 ... 1981 more bytes>,
+317 verbose audit error   pkgid: 'quick'
+317 verbose audit error }
+318 silly audit error
+318 silly audit error <!DOCTYPE html>
+318 silly audit error <html lang="en">
+318 silly audit error <head>
+318 silly audit error   <meta http-equiv="content-type" content="text/html; charset=utf-8">
+318 silly audit error   <meta name="robots" content="NONE,NOARCHIVE">
+318 silly audit error   <title>403 Forbidden</title>
+318 silly audit error   <style type="text/css">
+318 silly audit error     html * { padding:0; margin:0; }
+318 silly audit error     body * { padding:10px 20px; }
+318 silly audit error     body * * { padding:0; }
+318 silly audit error     body { font:small sans-serif; background:#eee; color:#000; }
+318 silly audit error     body>div { border-bottom:1px solid #ddd; }
+318 silly audit error     h1 { font-weight:normal; margin-bottom:.4em; }
+318 silly audit error     h1 span { font-size:60%; color:#666; font-weight:normal; }
+318 silly audit error     #info { background:#f6f6f6; }
+318 silly audit error     #info ul { margin: 0.5em 4em; }
+318 silly audit error     #info p, #summary p { padding-top:10px; }
+318 silly audit error     #summary { background: #ffc; }
+318 silly audit error     #explanation { background:#eee; border-bottom: 0px none; }
+318 silly audit error   </style>
+318 silly audit error </head>
+318 silly audit error <body>
+318 silly audit error <div id="summary">
+318 silly audit error   <h1>Ошибка доступа <span>(403)</span></h1>
+318 silly audit error   <p>Ошибка проверки CSRF. Запрос отклонён.</p>
+318 silly audit error
+318 silly audit error
+318 silly audit error   <p>Вы видите это сообщение, потому что данный сайт требует, чтобы при отправке форм была отправлена и CSRF-cookie. Данный тип cookie необходим по соображениям безопасности, чтобы убедиться, что ваш браузер не был взломан и не выполняет от вашего лица действий, запрограммированных третьими лицами.</p>
+318 silly audit error   <p>Если в вашем браузере отключены cookie, пожалуйста, включите эту функцию вновь, по крайней мере для этого сайта, или для &quot;same-orign&quot; запросов.</p>
+318 silly audit error
+318 silly audit error </div>
+318 silly audit error
+318 silly audit error <div id="explanation">
+318 silly audit error   <p><small>В отладочном режиме доступно больше информации.  Включить отладочный режим можно, установив значение переменной DEBUG=True.</small></p>
+318 silly audit error </div>
+318 silly audit error
+318 silly audit error </body>
+318 silly audit error </html>
+318 silly audit error
+319 silly audit report null
+320 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/@babel/helper-compilation-targets/-/helper-compilation-targets-7.29.7.tgz 1315ms (cache miss)
+321 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/@babel/generator/-/generator-7.29.7.tgz 1329ms (cache miss)
+322 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/@babel/code-frame/-/code-frame-7.29.7.tgz 1319ms (cache miss)
+323 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/@babel/compat-data/-/compat-data-7.29.7.tgz 1322ms (cache miss)
+324 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/@babel/types/-/types-7.29.7.tgz 1353ms (cache miss)
+325 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/@babel/parser/-/parser-7.29.7.tgz 1378ms (cache miss)
+326 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/@babel/core/-/core-7.29.7.tgz 1477ms (cache miss)
+327 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/@rollup/rollup-darwin-x64/-/rollup-darwin-x64-4.62.2.tgz 1563ms (cache miss)
+328 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/typescript/-/typescript-5.9.3.tgz 2922ms (cache miss)
+329 http fetch GET 200 https://sberosc.sigma.sbrf.ru/repo/npm/@esbuild/darwin-x64/-/darwin-x64-0.21.5.tgz 2996ms (cache miss)
+330 info run esbuild@0.21.5 postinstall node_modules/esbuild node install.js
+331 info run esbuild@0.21.5 postinstall { code: 0, signal: null }
+332 silly ADD node_modules/yallist
+333 silly ADD node_modules/vite
+334 silly ADD node_modules/update-browserslist-db
+335 silly ADD node_modules/typescript
+336 silly ADD node_modules/tslib
+337 silly ADD node_modules/source-map-js
+338 silly ADD node_modules/semver
+339 silly ADD node_modules/scheduler
+340 silly ADD node_modules/rollup
+341 silly ADD node_modules/react-refresh
+342 silly ADD node_modules/react-dom
+343 silly ADD node_modules/react
+344 silly ADD node_modules/postcss
+345 silly ADD node_modules/picocolors
+346 silly ADD node_modules/node-releases
+347 silly ADD node_modules/nanoid
+348 silly ADD node_modules/ms
+349 silly ADD node_modules/motion-utils
+350 silly ADD node_modules/motion-dom
+351 silly ADD node_modules/lru-cache
+352 silly ADD node_modules/loose-envify
+353 silly ADD node_modules/json5
+354 silly ADD node_modules/jsesc
+355 silly ADD node_modules/js-tokens
+356 silly ADD node_modules/gensync
+357 silly ADD node_modules/fsevents
+358 silly ADD node_modules/framer-motion
+359 silly ADD node_modules/escalade
+360 silly ADD node_modules/esbuild
+361 silly ADD node_modules/electron-to-chromium
+362 silly ADD node_modules/debug
+363 silly ADD node_modules/csstype
+364 silly ADD node_modules/convert-source-map
+365 silly ADD node_modules/caniuse-lite
+366 silly ADD node_modules/browserslist
+367 silly ADD node_modules/baseline-browser-mapping
+368 silly ADD node_modules/@vitejs/plugin-react
+369 silly ADD node_modules/@types/react-dom
+370 silly ADD node_modules/@types/react
+371 silly ADD node_modules/@types/prop-types
+372 silly ADD node_modules/@types/estree
+373 silly ADD node_modules/@types/babel__traverse
+374 silly ADD node_modules/@types/babel__template
+375 silly ADD node_modules/@types/babel__generator
+376 silly ADD node_modules/@types/babel__core
+377 silly ADD
+378 silly ADD
+379 silly ADD
+380 silly ADD
+381 silly ADD
+382 silly ADD
+383 silly ADD
+384 silly ADD
+385 silly ADD
+386 silly ADD
+387 silly ADD
+388 silly ADD
+389 silly ADD
+390 silly ADD
+391 silly ADD
+392 silly ADD
+393 silly ADD
+394 silly ADD
+395 silly ADD
+396 silly ADD
+397 silly ADD
+398 silly ADD node_modules/@rollup/rollup-darwin-x64
+399 silly ADD
+400 silly ADD
+401 silly ADD
+402 silly ADD node_modules/@rolldown/pluginutils
+403 silly ADD node_modules/@jridgewell/trace-mapping
+404 silly ADD node_modules/@jridgewell/sourcemap-codec
+405 silly ADD node_modules/@jridgewell/resolve-uri
+406 silly ADD node_modules/@jridgewell/remapping
+407 silly ADD node_modules/@jridgewell/gen-mapping
+408 silly ADD
+409 silly ADD
+410 silly ADD
+411 silly ADD
+412 silly ADD
+413 silly ADD
+414 silly ADD
+415 silly ADD
+416 silly ADD
+417 silly ADD
+418 silly ADD
+419 silly ADD
+420 silly ADD
+421 silly ADD
+422 silly ADD
+423 silly ADD
+424 silly ADD
+425 silly ADD node_modules/@esbuild/darwin-x64
+426 silly ADD
+427 silly ADD
+428 silly ADD
+429 silly ADD
+430 silly ADD
+431 silly ADD node_modules/@babel/types
+432 silly ADD node_modules/@babel/traverse
+433 silly ADD node_modules/@babel/template
+434 silly ADD node_modules/@babel/plugin-transform-react-jsx-source
+435 silly ADD node_modules/@babel/plugin-transform-react-jsx-self
+436 silly ADD node_modules/@babel/parser
+437 silly ADD node_modules/@babel/helpers
+438 silly ADD node_modules/@babel/helper-validator-option
+439 silly ADD node_modules/@babel/helper-validator-identifier
+440 silly ADD node_modules/@babel/helper-string-parser
+441 silly ADD node_modules/@babel/helper-plugin-utils
+442 silly ADD node_modules/@babel/helper-module-transforms
+443 silly ADD node_modules/@babel/helper-module-imports
+444 silly ADD node_modules/@babel/helper-globals
+445 silly ADD node_modules/@babel/helper-compilation-targets
+446 silly ADD node_modules/@babel/generator
+447 silly ADD node_modules/@babel/core
+448 silly ADD node_modules/@babel/compat-data
+449 silly ADD node_modules/@babel/code-frame
+450 verbose cwd /Users/19333669/workflow/qa-ai-workspace-presskit
+451 verbose os Darwin 24.6.0
+452 verbose node v22.16.0
+453 verbose npm  v10.9.2
+454 verbose exit 0
+455 info ok

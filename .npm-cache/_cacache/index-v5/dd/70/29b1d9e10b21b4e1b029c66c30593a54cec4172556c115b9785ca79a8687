@@ -1,0 +1,2 @@
+
+80c9a35cd171c277e498134017338edcc93fee2c	{"key":"make-fetch-happen:request-cache:https://sberosc.sigma.sbrf.ru/repo/npm/@babel/parser/-/parser-7.29.7.tgz","integrity":"sha512-hnORnjP/1P/zFEndoeX+n+t1RwWRJiJpM/jO7FW32Kn9r5+sJB2JWOdYo4L6k78j15eCwY3Gm/7364B1EMwtNg==","time":1790071835411,"size":438527,"metadata":{"time":1790071835032,"url":"https://sberosc.sigma.sbrf.ru/repo/npm/@babel/parser/-/parser-7.29.7.tgz","reqHeaders":{},"resHeaders":{"content-type":"application/octet-stream","date":"Tue, 22 Sep 2026 10:10:35 GMT","vary":"Cookie"},"options":{"compress":true}}}

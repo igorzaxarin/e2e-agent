@@ -1,0 +1,2 @@
+
+f5d5f7a988a7b152c39a46261e0768dbc90e5303	{"key":"make-fetch-happen:request-cache:https://sberosc.sigma.sbrf.ru/repo/npm/fsevents/-/fsevents-2.3.3.tgz","integrity":"sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==","time":1790071834494,"size":22808,"metadata":{"time":1790071834435,"url":"https://sberosc.sigma.sbrf.ru/repo/npm/fsevents/-/fsevents-2.3.3.tgz","reqHeaders":{},"resHeaders":{"content-type":"application/octet-stream","date":"Tue, 22 Sep 2026 10:10:34 GMT","vary":"Cookie"},"options":{"compress":true}}}
